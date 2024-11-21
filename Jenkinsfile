@@ -22,11 +22,6 @@ pipeline {
                     
             }
         }
-        stage('hello'){
-            steps{
-                sh 'whoami'
-            }
-
-        }
+       
     }
 }
